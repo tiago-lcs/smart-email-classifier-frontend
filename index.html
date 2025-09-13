@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Classificador de E-mails – MVP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Classificador de E-mails – MVP</h1>
+    <p class="sub">Cole abaixo o conteúdo do e-mail e clique em <strong>ENVIAR</strong>.</p>
+
+    <label for="emailText" class="lbl">Conteúdo do e-mail</label>
+    <textarea id="emailText" rows="10" placeholder="Cole aqui o texto do e-mail..."></textarea>
+
+    <button id="sendBtn">ENVIAR</button>
+
+    <section id="result" class="card hidden">
+      <h2>Resultado</h2>
+      <div class="grid">
+        <div>
+          <div class="k">Categoria</div>
+          <div id="category" class="v"></div>
+        </div>
+        <div>
+          <div class="k">Confiança</div>
+          <div id="confidence" class="v"></div>
+        </div>
+      </div>
+      <div class="resp">
+        <div class="k">Resposta sugerida</div>
+        <pre id="reply"></pre>
+      </div>
+    </section>
+
+    <footer>
+      <small>Powered by Flask + Hugging Face Inference API • MVP</small>
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
