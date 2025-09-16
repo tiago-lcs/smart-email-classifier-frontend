@@ -1,5 +1,5 @@
 // Troque pela URL do seu backend Flask após o deploy:
-const BACKEND_URL = "https://SEU-BACKEND.onrender.com";
+const BACKEND_URL = "https://smart-email-classifier-backend.onrender.com";
 
 const $ = (sel) => document.querySelector(sel);
 const txt = $("#emailText");
