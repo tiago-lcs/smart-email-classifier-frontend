@@ -1,5 +1,7 @@
 # smart-email-classifier-frontend
 
+Frontend da aplicação Smart E-mail Classifier, disponível aqui: https://smart-email-classifier-tiago.netlify.app/
+
 ## E-mail produtivo
 
 <img width="881" height="377" alt="image" src="https://github.com/user-attachments/assets/f2db4e2c-9319-439f-a4a6-2b7af0ff4806" />
