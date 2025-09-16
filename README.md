@@ -1,6 +1,20 @@
-# smart-email-classifier-frontend
+# Smart Email Classifier – Frontend
 
-Frontend da aplicação Smart E-mail Classifier, disponível aqui: https://smart-email-classifier-tiago.netlify.app/
+Interface web simples para classificar e-mails em **Produtivo** ou **Improdutivo** e sugerir uma resposta automática.
+
+## 🚀 Como usar
+1. Abra o site publicado no **Netlify**.
+2. Cole o texto de um e-mail no campo de texto.
+3. Clique em **ENVIAR**.
+4. Veja a categoria atribuída e a resposta sugerida.
+
+## 🛠️ Tecnologias
+- HTML, CSS e JavaScript puro
+- Integração com backend Flask (Render)
+
+## ⚠️ Observação
+- A primeira requisição pode demorar alguns segundos (**cold start** do backend gratuito).
+- Se aparecer demora, aguarde e tente novamente.
 
 ## E-mail produtivo
 
